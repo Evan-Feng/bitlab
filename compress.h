@@ -4,6 +4,10 @@
  *  compress.h - struct bitstream_t, struct array_t
  *
  */
+#include <stdint.h>
+#include <string.h>
+#include <stdlib.h>
+
 
 struct bitstream_t {
     char *buf;
